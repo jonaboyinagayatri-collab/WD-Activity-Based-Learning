@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Table Reservation</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="index.css">
+</head>
+<body>
+<nav>
+<a href="index.html">Home</a>
+<a href="menu.html">Menu</a>
+<a href="chefs.html">Chefs</a>
+<a href="about.html">About</a>
+<a href="reservation.html">Reservation</a>
+</nav>
+<h1>Book Your Table</h1>
+<form onsubmit="alert('Demo request submitted!');return false;">
+<input type="text" placeholder="Your Name" required>
+<input type="tel" placeholder="Phone Number" required>
+<input type="date" required>
+<input type="time" required>
+<select required>
+<option value="">Select Guests</option>
+<option>1 Person</option>
+<option>2 Persons</option>
+<option>3 Persons</option>
+<option>4 Persons</option>
+<option>5+ Persons</option>
+</select>
+<button type="submit">Reserve Now</button>
+</form>
+<p>We look forward to serving you!</p>
+</body>
+</html>

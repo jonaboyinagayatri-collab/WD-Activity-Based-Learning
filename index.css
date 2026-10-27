@@ -1,0 +1,64 @@
+
+body{
+margin:0;
+font-family:Georgia,serif;
+text-align:center;
+background:#fff8f0;
+color:#3e2723;
+}
+nav{
+background:#5d3025;
+padding:18px;
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+gap:15px;
+}
+nav a{
+color:white;
+text-decoration:none;
+font-weight:bold;
+}
+nav a:hover{color:orange;}
+.banner{
+background:linear-gradient(#0008,#0008),
+url('https://images.unsplash.com/photo-1517248135467-4c7edcad34c4') center/cover;
+color:white;
+padding:110px 15px;
+}
+.cards{
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+}
+.card{
+background:white;
+width:260px;
+padding:18px;
+margin:15px auto;
+border-radius:12px;
+box-shadow:0 3px 10px #ccc;
+}
+.card img{
+width:100%;
+height:170px;
+object-fit:cover;
+border-radius:8px;
+}
+.btn,button{
+display:inline-block;
+background:#a0522d;
+color:white;
+padding:12px 22px;
+border:0;
+border-radius:6px;
+text-decoration:none;
+cursor:pointer;
+}
+input,select{
+display:block;
+padding:12px;
+margin:12px auto;
+width:80%;
+max-width:300px;
+}
